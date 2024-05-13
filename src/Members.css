@@ -1,0 +1,37 @@
+table {
+    border-collapse: collapse;
+    
+    margin-top: 10rem;
+    width: 900px;
+    margin-left: 500px;
+    margin-bottom: 10px;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+   
+  }
+ 
+  /* Style the table header */
+  th {
+    background-color: #f2f2f2;
+    background-color:lightgreen;
+  }
+  
+  /* Style the pagination buttons */
+  button {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #f2f2f2;
+    margin: 0 5px;
+  }
+  
+  button:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+  
